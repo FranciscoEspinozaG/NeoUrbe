@@ -11,16 +11,19 @@
 
 <?php b4st_navbar_before();?>
 
-<nav id="navbar" class="navbar navbar-expand-md navbar-light bg-light destacar">
-  <div class="container destacar d-flex justify-content-center align-items-center px-0">
+<nav id="navbar" class="navbar navbar-expand-md navbar-light bg-light p-1 fixed-top shadow">
 
+  
+  <div class="container d-flex justify-content-center align-items-center px-0 ">
+    
+    <!-- <img src="<?php get_site_url(); ?>" alt="" class="destacar p-5"> -->
     <?php //b4st_navbar_brand();?>
 
     <button class="navbar-toggler d-none" type="button" data-toggle="collapse" data-target="#navbarDropdown" aria-controls="navbarDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div class="collapse navbar-collapse d-none" id="navbarDropdown">
+    <div class="destacar collapse navbar-collapse d-none" id="navbarDropdown">
       <?php
         wp_nav_menu( array(
           'theme_location'  => 'navbar',
@@ -32,7 +35,6 @@
           'walker'          => new b4st_walker_nav_menu()
         ) );
       ?>
-
       <?php //b4st_navbar_search();?>    
     </div>
 

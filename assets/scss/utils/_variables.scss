@@ -1,8 +1,10 @@
-$primary-font:  sans-serif;
+$primary-font: 'Nunito Sans', sans-serif;
 //$display-font: 'Raleway', sans-serif;
+$font-extra-light: 200;
+$font-light: 300;
 $font-regular: 400;
-$font-bold: 500;
-$font-extra-bold: 900;
+$font-semi-bold: 600;
+$font-black: 900;
 
 // Colores
 $palette: (
@@ -11,8 +13,8 @@ $palette: (
     medium-grey: #697789,
     brand-grey: #2F3640,
     dark-grey: #1F232A,
-    brand-primary-color: #2d9fe4,
-    brand-second-color: #031721,
+    brand-primary-color: #8DC63F,
+    brand-second-color: #333030,
     brand-third-color: #021118,
     brand-green: #41b451
 );

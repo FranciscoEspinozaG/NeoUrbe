@@ -1,1 +1,21 @@
-//@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,900');
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,600,900&display=swap');
+
+.extra-light{
+    font-weight: $font-extra-light;
+}
+
+.light{
+    font-weight: $font-light;
+}
+
+.regular{
+    font-weight: $font-regular;
+}
+
+.semi-bold{
+    font-weight: $font-semi-bold;
+}
+
+.black{
+    font-weight: $font-black;
+}

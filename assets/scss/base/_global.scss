@@ -4,7 +4,7 @@
 $animation-duration: 0.7s;
 body {
     font-family: $primary-font;
-    color: $dark-grey;
+    color: $brand-second-color;
     font-weight: $font-regular;
     position: relative;
     transition: 1s all ease-in-out;
@@ -41,7 +41,7 @@ ul {
 }
 
 strong {
-    font-weight: $font-bold;
+    font-weight: $font-black;
 }
 
 label {
