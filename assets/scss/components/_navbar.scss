@@ -1,0 +1,20 @@
+.bg-white-alpha{
+    background: rgba($color: #fff, $alpha: .7);
+    transition: .3s ease all;
+    &:hover{
+        background: rgba($color: #fff, $alpha: 1.0);
+    }
+}
+
+li:hover{
+    background-color: rgba($color: $brand-primary-color, $alpha: .8);
+    color: #fff;
+}
+
+.seccion-actual{
+    background-color: $brand-primary-color;
+    color: #fff;
+    &:hover{
+        background-color: rgba($color: $brand-primary-color, $alpha: .8);
+    }
+}

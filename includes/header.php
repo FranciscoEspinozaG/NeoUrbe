@@ -11,15 +11,24 @@
 
 <?php b4st_navbar_before();?>
 
-<nav id="navbar" class="navbar navbar-expand-md navbar-light bg-light p-1 fixed-top shadow">
+<nav id="navbar" class="navbar navbar-expand-md navbar-light bg-white-alpha p-4 shadow">
 
   
-  <div class="container d-flex justify-content-center align-items-center px-0 ">
+  <div class="col-10 mx-auto d-flex justify-content-between align-items-center px-0 ">
+
+    <img src="<?php echo get_site_url(); ?>/wp-content/themes/neoUrbe/assets/img/logo.png" height="61">
+
+    <ul class="d-flex flex-wrap m-0">
+      <li class="btn mx-2 seccion-actual">Inicio</li>
+      <li class="btn mx-2">Proyectos</li>
+      <li class="btn mx-2">Somos</li>
+      <li class="btn mx-2">Inversionistas</li>
+    </ul>
     
     <!-- <img src="<?php get_site_url(); ?>" alt="" class="destacar p-5"> -->
     <?php //b4st_navbar_brand();?>
 
-    <button class="navbar-toggler d-none" type="button" data-toggle="collapse" data-target="#navbarDropdown" aria-controls="navbarDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <!-- <button class="navbar-toggler d-none" type="button" data-toggle="collapse" data-target="#navbarDropdown" aria-controls="navbarDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
@@ -36,7 +45,9 @@
         ) );
       ?>
       <?php //b4st_navbar_search();?>    
-    </div>
+    </div> -->
+
+    
 
   </div>
 </nav>
