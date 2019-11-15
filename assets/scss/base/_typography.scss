@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,600,900&display=swap');
 
+html{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
 .extra-light{
     font-weight: $font-extra-light;
 }
@@ -18,4 +22,8 @@
 
 .black{
     font-weight: $font-black;
+}
+
+.destacado-verde{
+    color: $brand-primary-color;
 }
