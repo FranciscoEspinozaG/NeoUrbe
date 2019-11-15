@@ -11,7 +11,7 @@
       <div id="content" role="main">
         <!-- OWL CAROUSEL HOME -->
         <div class="owl-carousel owl-theme owl-carousel-home">
-          <div class="carousel-header-90 d-flex" style="background:url('<?php echo get_site_url(); ?>/wp-content/themes/neoUrbe/assets/img/cabecera.png') center left / cover no-repeat;">
+          <div class="carousel-header-90 d-flex" style="background:url('<?php echo get_site_url(); ?>/wp-content/themes/neoUrbe/assets/img/cabecera.png') center 20% / cover no-repeat;">
               <div class="frase text-right">
                 <h2 class="semi-bold">Te Conecta a
                   <br>

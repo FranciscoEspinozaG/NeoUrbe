@@ -1,4 +1,10 @@
 $(function() {
+    // BOTÓN DE FORMULARIO
+
+    $('.btn-contactanos').on('click', function(){
+        $('.contenedor-formulario-contactanos').toggleClass('ecfc');
+    });
+
     // Owl Carousel Home
 
     $(".owl-carousel-home").owlCarousel({
