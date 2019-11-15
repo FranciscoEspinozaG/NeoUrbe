@@ -1,6 +1,6 @@
 <?php b4st_footer_before();?>
 
-<footer id="footer" class="mt-0 bg-dark p-5">
+<footer id="footer" class="mt-0 bg-dark p-3">
 
   <div class="container">
 
