@@ -4,21 +4,29 @@
     margin: 0;
     left: 0;
     top: 200px;
-    width: auto;
-    height: 500px;
     transition: .6s ease all;
+    @include MQ(M){
+        width: auto;
+        height: 500px;
+    }
 }
 
 .ecfc{
-    margin-left: -480px;
+    margin-left: -80vw;
     transition: .6s ease all;
+    @include MQ(M){
+        margin-left: -480px;
+    }
 }
 
 .formulario-contactanos{
     height: 100%;
-    width: 480px;
+    width: 80vw;
     background: #fff;
     box-shadow: rgba($color: #000000, $alpha: .2) 0px 5px 15px;
+    @include MQ(M){
+        width: 480px;
+    }
     & textarea{
         resize: none;
     }

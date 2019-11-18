@@ -22,15 +22,119 @@
         </div>
         <!-- /. OWL CAROUSEL HOME -->
         <!-- CONTENEDOR GENERAL -->
-        <div class="fondoGeneral p-2">
-          <section class="" id="proyectoDestacado">
-
+        <div class="fondoGeneral py-5">
+          <section class="container d-flex flex-column align-items-center justify-content-center py-5" id="proyectoDestacado">
+            <h2 class="black mb-5">Proyecto Destacado</h2>
+            <div class="owl-carousel owl-theme owl-carousel-proyectos">
+              <!-- ITEM UNO -->
+              <div class="item-carousel-proyectos w-100 d-flex flex-wrap flex-wrap-reverse">
+                <div class="col-12 col-md-6 p-0">
+                  <h3 class="text-center text-md-left titulo-proyecto black">Proyecto Edificio Neo Cisterna</h3>
+                  <div class="estado-proyecto bg-verde col-12 col-md-5 p-2">
+                    <p class="text-white text-center mx-0 my-2">Entrega inmediata</p>
+                  </div>
+                  <p class="m-0 text-light-gray text-center text-md-left my-2">
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+                  </p>
+                  <div class="col destacar d-flex flex-wrap p-0 text-center justify-content-start align-items-center my-2">
+                    <img class="col-2 col-md-1 mr-2" src="<?php echo get_site_url(); ?>/wp-content/themes/neoUrbe/assets/img/001-scale.png" alt="">
+                    <p class="m-0 col">52m² a 95.4m²</p>
+                  </div>
+                  <div class="col destacar d-flex flex-wrap p-0 text-center justify-content-start align-items-center my-2">
+                    <img class="col-1 mr-2" src="<?php echo get_site_url(); ?>/wp-content/themes/neoUrbe/assets/img/002-bed.png" alt="">
+                    <p class="m-0 col">2 a 4 habitaciones</p>
+                  </div>
+                  <div class="col destacar d-flex flex-wrap p-0 text-center justify-content-start align-items-center my-2">
+                    <img class="col-1 mr-2" src="<?php echo get_site_url(); ?>/wp-content/themes/neoUrbe/assets/img/003-bathtub.png" alt="">
+                    <p class="m-0 col">2 a 4 habitaciones</p>
+                  </div>
+                  <h3 class="desde-uf semi-bold text-center text-md-left">
+                    Desde 3.920 UF
+                  </h3>
+                  <a href="#" class="btn-irAProyecto bg-verde p-2 my-0 text-center text-white d-flex justify-content-center align-items-center col-6 mx-auto">
+                    Ir a proyecto
+                  </a>
+                  <div id="botonera-owlCarouselProyectos" class="w-100 d-flex flex-wrap justify-content-between p-0">
+                    <div class="col-2 bg-verde text-white text-center p-2 similBtnPrev">
+                      ◂
+                    </div>
+                    <div class="col-2 bg-verde text-white text-center p-2 similBtnNext">
+                      ▸
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6">
+                  <img src="<?php echo get_site_url(); ?>/wp-content/themes/neoUrbe/assets/img/img-edificio.png" alt="" class="foto-proyecto">
+                </div>
+              </div>
+              <!-- /ITEM UNO -->
+              <!-- ITEM DOS -->
+              <div class="item-carousel-proyectos w-100 d-flex flex-wrap flex-wrap-reverse">
+                <div class="col-12 col-md-6 p-0">
+                  <h3 class="text-center text-md-left titulo-proyecto black">Proyecto Edificio Neo Centro</h3>
+                  <div class="estado-proyecto bg-verde col-12 col-md-5 p-2">
+                    <p class="text-white text-center mx-0 my-2">Entrega inmediata</p>
+                  </div>
+                  <p class="m-0 text-light-gray text-center text-md-left my-2">
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+                  </p>
+                  <div class="w-100 d-flex flex-wrap p-0 text-center justify-content-start align-items-center my-2">
+                    <img class="col-2 col-md-1 mr-2" src="<?php echo get_site_url(); ?>/wp-content/themes/neoUrbe/assets/img/001-scale.png" alt="">
+                    <p class="m-0">52m² a 95.4m²</p>
+                  </div>
+                  <div class="w-100 d-flex flex-wrap p-0 text-center justify-content-start align-items-center my-2">
+                    <img class="col-1 mr-2" src="<?php echo get_site_url(); ?>/wp-content/themes/neoUrbe/assets/img/002-bed.png" alt="">
+                    <p class="m-0">2 a 4 habitaciones</p>
+                  </div>
+                  <div class="w-100 d-flex flex-wrap p-0 text-center justify-content-start align-items-center my-2">
+                    <img class="col-1 mr-2" src="<?php echo get_site_url(); ?>/wp-content/themes/neoUrbe/assets/img/003-bathtub.png" alt="">
+                    <p class="m-0">2 a 4 habitaciones</p>
+                  </div>
+                  <h3 class="desde-uf semi-bold text-center text-md-left">
+                    Desde 3.920 UF
+                  </h3>
+                  <a href="#" class="btn-irAProyecto bg-verde p-2 my-0 text-center text-white d-flex justify-content-center align-items-center col-6 mx-auto">
+                    Ir a proyecto
+                  </a>
+                  <div id="botonera-owlCarouselProyectos" class="w-100 d-flex flex-wrap justify-content-between p-0">
+                    <div class="col-2 bg-verde text-white text-center p-2 similBtnPrev">
+                      ◂
+                    </div>
+                    <div class="col-2 bg-verde text-white text-center p-2 similBtnNext">
+                      ▸
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6">
+                  <img src="<?php echo get_site_url(); ?>/wp-content/themes/neoUrbe/assets/img/img-edificio.png" alt="" class="foto-proyecto">
+                </div>
+                <!-- /ITEM DOS -->
+              </div>
+            </div>            
           </section>
-          <section id="teConectamos">
-
+          <section class="container d-flex flex-column align-items-center justify-content-center py-5" id="teConectamos">
+            <h2 class="black mb-5">Te Conectamos</h2>
+            <div id="contenedorDetalles" class="w-100 d-flex flex-wrap p-0">
+              <div class="d-flex flex-column justify-content-center align-items-center cajaDetalleIcono border text-center">
+                <img src="<?php echo get_site_url(); ?>/wp-content/themes/neoUrbe/assets/img/manos.png" alt="">
+                <h3 class="black">Excelentes<br>Servicios</h3>
+              </div>
+              <div class="d-flex flex-column justify-content-center align-items-center cajaDetalleIcono border text-center">
+                <img src="<?php echo get_site_url(); ?>/wp-content/themes/neoUrbe/assets/img/manos.png" alt="">
+                <h3 class="black">Excelentes<br>Servicios</h3>
+              </div>
+              <div class="d-flex flex-column justify-content-center align-items-center cajaDetalleIcono border text-center">
+                <img src="<?php echo get_site_url(); ?>/wp-content/themes/neoUrbe/assets/img/modelado.png" alt="">
+                <h3 class="black">Mejores<br>espacios</h3>
+              </div>
+              <div class="d-flex flex-column justify-content-center align-items-center cajaDetalleIcono border text-center">
+                <img src="<?php echo get_site_url(); ?>/wp-content/themes/neoUrbe/assets/img/diamante.png" alt="">
+                <h3 class="black">Detalles<br>elegantes</h3>
+              </div>
+            </div>
           </section>
-          <section id="ultimasNovedades">
-
+          <section class="container d-flex flex-column align-items-center justify-content-center py-5" id="ultimasNovedades">
+            <h2 class="black mb-5">Últimas novedades</h2>
           </section>
         </div>
         <!-- /. CONTENEDOR GENERAL -->

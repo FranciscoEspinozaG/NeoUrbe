@@ -17,3 +17,9 @@ require get_template_directory() . '/functions/index-pagination.php';
 require get_template_directory() . '/functions/single-split-pagination.php';
 require get_template_directory() . '/functions/develop.php';
 add_filter('use_block_editor_for_post', '__return_false', 10);
+
+function add_meta_tags(){
+?>
+  <meta name="theme-color" content="#8DC63F">
+<?php }
+add_action('wp_head', 'add_meta_tags');

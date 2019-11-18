@@ -1,0 +1,54 @@
+.titulo-proyecto{
+    font-size: calc(1vw + 15px);
+}
+
+.btn-irAProyecto{
+    position: relative;
+    z-index: 10;
+    &:hover{
+        opacity: .8;
+        color: #fff !important;
+    }
+}
+
+#botonera-owlCarouselProyectos{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    cursor: pointer;
+    & :hover{
+        opacity: .8;
+    }
+}
+
+.foto-proyecto{
+    width: 90% !important;
+    float: right;
+    margin-bottom: 20px;
+    box-shadow: rgba($color: #e3e3e3, $alpha: .7) -20px 20px 0px;
+}
+
+.owl-carousel-proyectos .owl-nav{
+    display: none;
+}
+
+// SECCIÓN TE CONECTAMOS
+
+#contenedorDetalles{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cajaDetalleIcono{
+    overflow: hidden;
+    padding: 20px 0px;
+    height: auto;
+    width: 48%;
+    margin: 10px 0px;
+    @include MQ(M){
+        height: 200px;
+        width: 24%;
+        margin: none;
+    }
+}
