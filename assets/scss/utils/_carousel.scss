@@ -1,9 +1,32 @@
-.carousel-header-90{
-    height: 70vh !important;
+.owl-carousel-home{
+    .owl-dots{
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        margin: auto;
+        span{
+            box-sizing: border-box;
+            transform: scale(1.2);
+            border-radius: 0px !important;
+            border: 2px solid #ffffff;
+        }
+    }
 }
 
-.carousel-header-90 .owl-nav{
-    position: absolute;
+.owl-dot.active span{
+    background: $brand-primary-color !important;
+}
+
+button:focus{
+    border: none !important;
+}
+
+.carousel-header-90{
+    height: 70vh !important;
+    .owl-nav{
+        position: absolute;
+    }
 }
 
 .frase{
@@ -17,10 +40,13 @@
     padding-right: 10%;
     right: 0px;
     background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
+    h2{
+        font-size: calc(1vw + 60px);
+        line-height: 70px;
+        // text-shadow: rgba($color: #000000, $alpha: .6) 0px 0px 5px;
+    }
 }
 
-.frase h2{
-    font-size: calc(1vw + 60px);
-    line-height: 70px;
-    // text-shadow: rgba($color: #000000, $alpha: .6) 0px 0px 5px;
+.botonera-owlCarouselProyectos > div{
+    border: 1px solid $brand-primary-color;
 }

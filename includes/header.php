@@ -19,10 +19,10 @@
     <img src="<?php echo get_site_url(); ?>/wp-content/themes/neoUrbe/assets/img/logo.png" height="61">
 
     <ul class="d-flex flex-wrap m-0">
-      <li class="btn mx-2 seccion-actual">Inicio</li>
-      <li class="btn mx-2">Proyectos</li>
-      <li class="btn mx-2">Somos</li>
-      <li class="btn mx-2">Inversionistas</li>
+      <li class="upper btn mx-2 seccion-actual">Inicio</li>
+      <li class="upper btn mx-2">Proyectos</li>
+      <li class="upper btn mx-2">Somos</li>
+      <li class="upper btn mx-2">Inversionistas</li>
     </ul>
     
     <!-- <img src="<?php get_site_url(); ?>" alt="" class="destacar p-5"> -->

@@ -65,7 +65,6 @@ if ( ! function_exists('b4st_enqueues') ) {
 		wp_register_script('clocks-js', 'https://cdnjs.cloudflare.com/ajax/libs/jquery.countdown/2.2.0/jquery.countdown.min.js', true, '2.2.0');
 		wp_enqueue_script('clocks-js');
 
-
 		wp_register_script('b4st', get_template_directory_uri() . '/assets/js/b4st.js', false, null, true);
 		wp_enqueue_script('b4st');
 
